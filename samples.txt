@@ -1,0 +1,25 @@
+            <div id="logoff">
+                <h:form>
+                    <h:commandLink actionListener="#{mbLanguage.portugueseLocale()}">
+                        <img src="./../resources/restrict/images/bra.png" width="4%" title="Português Brasileiro"/>
+                    </h:commandLink>
+                    <h:commandLink actionListener="#{mbLanguage.spanishLocale()}">
+                        <img src="./../resources/restrict/images/esp.png" width="4%" title="Espanhol"/>
+                    </h:commandLink>
+                    <h:commandLink actionListener="#{mbLanguage.englishLocale()}">
+                        <img src="./../resources/restrict/images/eng.png" width="4%" title="Inglês"/>
+                    </h:commandLink>
+                    
+                    <br/>
+                    <br/>
+                    <h5><h:outputText value="#{msgs.bem_vindo},#{mbUsuario.pessoa.nomePessoa}"/></h5>
+                    <br/>
+                    <a href="#{facesContext.externalContext.requestContextPath}/j_spring_security_logout">
+	                <h4>#{msgs.logoff}</h4>
+	            </a>
+
+                </h:form>
+				
+				
+				
+				<p:submenu label="#{msgs.arquiv}" >
