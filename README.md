@@ -1,0 +1,2 @@
+# Minicurso-JSF-UNIPAM-2013
+Este é apenas um backup do projeto de JSF desenvolvido durante o minicurso “Alta Produtividade em Aplicações Web com JavaServer Faces” no IX InfoWeek, realizado no Centro Universitário de Patos de Minas. Apresentação de conceitos básicos do Framework e desenvolvimento de uma mini aplicação com suporte a internacionalização, utilizando Hibernate, Facelets, SpringSecurity, Primefaces e os padrões de projeto DAO e MVC.
